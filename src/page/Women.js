@@ -1,20 +1,22 @@
-import React,{useEffect,useState} from 'react'
-import axios from 'axios' 
-import ProductCard from '../component/ProductCard'
-import { Container ,Row,Col} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import { Col, Container, Row } from 'react-bootstrap';
 import { useSearchParams } from 'react-router-dom';
-import ProductAllcard from '../component/ProductAllcard';
-export default function ProductAll({authenticate}) {
+import ProductCard from '../component/ProductCard';
+import ProductCardWomen from '../component/ProductCardWomen';
+
+export default function Women({authenticate}) {
   const[productList,setProductList] =useState([])
   const[qurey,setQurey] = useSearchParams();
   const getProducts= ()=>{
+
+    
     let serchQurey =qurey.get('q')||''
    
     axios.get(`http://localhost:5000/products?q=${serchQurey}`)
     .then((data)=>{
       setProductList(data.data)
-   
+      console.log("무슨값?",productList)
     })
      
       .catch(console.error)
@@ -27,23 +29,24 @@ export default function ProductAll({authenticate}) {
       getProducts()
 
   },[qurey])
-
-  
   return (
     <>
+    
     <div className='womenTitle'>
-    <h1 className='womens'>ALL Product</h1>
+    <div className='womens'>WOMEN</div>
+    <div className='womentext'> 하우스가 디자인한 여성 레디-투-웨어 컬렉션에서는 실크 드레스, 트위드 앙상블 및 장식이 조화를 이룹니다.</div>
     </div>
+    
     <Container>
+      
       <Row>
         {productList.map((item)=>(
-          <Col lg={3}><ProductAllcard item={item}authenticate={authenticate} /></Col>
+          <Col lg={4}><ProductCardWomen item={item}authenticate={authenticate} /></Col>
         ))}
        
     
       </Row>
     </Container>
-    
     </>
   )
 }

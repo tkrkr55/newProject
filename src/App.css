@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'OTWelcomeRA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FUNFLOWSURVIVORKR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/FUNFLOWSURVIVORKR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Happiness-Sans-Title';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MonoplexKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MICEMyungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEMyungjo.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  font-family: 'MonoplexKR-Regular';
+}
 .목록정렬{
   display: flex;
   justify-content: center;
@@ -16,15 +61,49 @@
  
 }
 
-.login{
+.navb-login{
   display: flex;
   justify-content: end;
   cursor: pointer;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
+
+.nav_text_title{
+  position: absolute;
+  left:10px;
+  color:white;
+  font-family: 'Happiness-Sans-Title';
+}
+
+.nav_text{
+  display: flex;
+  padding: 10px 20px 0 5px;
+  color: rgb(231, 226, 226);
+  font-size: 0.9rem;
+}
+
+.바구니{
+  padding-left:10px;
+  font-size: 1.1rem;
+}
+.돋보기{
+  background-color: transparent;
+  color:white;
+  font-size: 1.1rem;
+  
+}
+.login{
+  width: 100%;
+  background-color: black;
+}
+
 
 .login_text{
   padding:13px;
   font-size: 1.2rem;
+  
 }
 
 .login_user{
@@ -38,6 +117,10 @@
   right:2%;
   top:-80%;
   border-bottom: 1px solid gray;
+  color:white;
+}
+.search img {
+  color:red;
 }
 input{
   border: 0 solid black;
@@ -53,3 +136,370 @@ input:focus{
   display: flex;
   justify-content: end;
 }
+
+.user_icon{
+  font-size:1.8rem ;
+ }
+
+ 
+ .shadow-pop-tr {
+	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@-webkit-keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+  padding-top:10px;
+}
+
+.엑스{
+  padding-right: 10px;
+  cursor: pointer;
+}
+.input{
+ height: 50px;
+}
+
+.logo{
+  font-size: 1.7rem;
+  
+}
+
+.home_title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:20px 0 ;
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.dropdown{
+  position : relative;
+  display : inline-block;
+}
+
+.dropbtn_icon{
+  font-family : 'Material Icons';
+}
+.dropbtn{
+  background-color: transparent;
+  font-weight: 400;
+  color : rgb(37, 37, 37);
+  padding : 12px;
+  text-align: left;
+  cursor : pointer;
+
+}
+.dropdown-content{
+  display : none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  font-weight: 400;
+  background-color: #f9f9f9;
+  min-width : 150px;
+}
+
+.dropdown-content a{
+  display : block;
+  text-decoration : none;
+  color : rgb(37, 37, 37);
+  font-size: 12px;
+  padding : 12px 20px;
+  font-family: 'LINESeedKR-Bd';
+  
+}
+
+.dropdown-content a:hover{
+  background-color : #ececec
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main_wrap{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main_img{
+  width: 100%;
+
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover
+}
+
+.home_text{
+  width:100% ;
+  display: inline-block;
+ 
+  margin-top:100px;
+}
+
+.home_text img {
+  width: 50% ;
+}
+
+.manimg{
+  width: 80%;
+ 
+  border-radius: 20%;
+  box-shadow: 12px 9px 11px -2px rgba(0,0,0,0.36);
+  -webkit-box-shadow: 12px 9px 11px -2px rgba(0,0,0,0.36);
+  -moz-box-shadow: 12px 9px 11px -2px rgba(0,0,0,0.36);
+cursor: pointer;
+}
+
+.women:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+.women{
+  padding:10px;
+  text-align: center;
+  
+  
+}
+.womenTitle{
+
+  width: 100%;
+  padding: 60px 0;
+  margin:30px 0;
+  
+}
+
+.womentext{
+  width: 100%;
+  font-family: 'MICEMyungjo';
+  text-align: center;
+}
+
+.womens{
+  width: 100%;
+  text-align: center;
+  font-size:2.5rem;
+  font-family: 'FUNFLOWSURVIVORKR';
+}
+
+.mencard{
+  margin:20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mencard:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.all{
+  padding:30px 0;
+  text-align: center;
+}
+.text{
+  margin-top:20px;
+  font-family: 'S-CoreDream-3Light';
+}
+
+.manimg:active{
+  box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+  position: relative;
+  top:2px;
+}
+
+.HotTitle{
+  width: 100%;
+
+  position: relative;
+}
+.HotText{
+  position: absolute;
+  right: 10%;
+  background-color: rgb(231, 109, 109);
+  color:white;
+  padding:15px;
+  border-radius: 50%;
+}
+.버튼wrap{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.버튼{
+  position: absolute;
+  right: 2%;
+  font-size: 1.5rem;
+  -webkit-animation: motion 0.3s linear 0s infinite alternate;
+          animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
+}
+@-webkit-keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+
+.loginForm{
+  width: 600px;
+  border: 1px solid rgba(128, 128, 128, 0.537);
+  padding:10px;
+ }
+ .logincenter{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+  
+ }
+
+ .소개글{
+  font-family: 'OTWelcomeRA';
+ }
+
+ .womens {
+	-webkit-animation: womens 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: womens 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes womens  {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+

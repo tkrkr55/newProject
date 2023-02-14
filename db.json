@@ -2,143 +2,364 @@
   "products":[
       {
           "id":0,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/ec/ef/ecef9d77c56c519e24a76b83331ae2c18f73f50d.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
-          "title":"벨티드 트윌 코트",
-          "price":99900,
+          "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1674692157/730392_ZALYA_1187_002_100_0000_Light-.jpg",
+          "title":"구찌 아이스크림 프린트 코튼 드레스",
+          "price":3400000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "best":true,
+          "gender":"women"
+          
 
       },
       {
           "id":1,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/af/50/af50afa939c28ba24fd263fb573b4ad5f0858b14.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
-          "title":"슬림핏 맘 하이웨이스트 앵클 진",
-          "price":29900,
+          "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1674257498/711648_ZAKXJ_4186_002_100_0000_Light-.jpg",
+          "title":"롱 벨벳 드레스",
+          "price":5100000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "best":true,
+          "gender":"women"
 
       },
       {
           "id":2,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/7a/49/7a4980a16ce6888b33481763ea1f0a05807f50d1.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
-          "title":"와이드 하이웨이스트 진",
-          "price":39900,
+          "img":"https://media.gucci.com/style/HEXEAF2DC_Center_0_0_490x490/1660087017/691452_ZAIU7_9791_002_100_0000_Light-.jpg",
+          "title":"루렉스 트위드 재킷",
+          "price":5300000,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":3,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/10/34/10341727ce95aae07695e7b13392a1d802ffe1f3.jpg],origin[dam],category[],type[LOOKBOOK],res[y],hmver[1]&call=url[file:/product/main]",
-          "title":"퍼프 슬리브 드레스",
-          "price":39900,
+          "img":"https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1672684289/731318_ZAL66_1037_002_100_0000_Light--GG.jpg",
+          "title":"코리아 익스클루시브 GG  트위드 재킷",
+          "price":5300000,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "best":true,
+          "gender":"women"
 
       },
       {
           "id":4,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/0f/46/0f463d61dbddb48bea8e329d9693f17fbff7f925.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"프릴 디테일 블라우스",
-          "price":29900,
+          "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1672943408/688197_XJE7H_9095_002_100_0000_Light--x.jpg",
+          "title":"아디다스 x 구찌 크롭 스웨트셔츠",
+          "price":1630000,
           "choice":true,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":5,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/95/20/9520af2b69e69ef18fbad1d2673d47b1afe2b107.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"자카드 셔츠 드레스",
-          "price":39900,
+          "img":"https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1672682469/717406_XJFA4_6509_002_100_0000_Light-.jpg",
+          "title":"코리아 익스클루시브 코튼 스웨트셔츠",
+          "price":1430000,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":6,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/66/eb/66ebc8ebbdc939176137327d43db5c22d2d0292f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"더블 브레스티드 재킷",
-          "price":39900,
+          "img":"https://media.gucci.com/style/HEXE8F1E3_Center_0_0_490x490/1671212723/714328_ZALEI_2424_002_100_0000_Light-.jpg",
+          "title":"워터릴리 프린트 플리츠 실크 스커트",
+          "price":3400000,
           "choice":true,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":7,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/be/3c/be3cfb9b7d99937f42b99b859dee546f8a3216b7.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"오버사이즈 집업 후디",
-          "price":99900,
+          "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1669331930/715916_ZHS57_2468_002_100_0000_Light-.jpg",
+          "title":"실크 쉬폰 스커트",
+          "price":2390000,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "best":true,
+          "gender":"women"
 
       },
       {
           "id":8,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/ad/e9/ade9a2fa40f186b2db875ceb35ca279ca99b300a.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"프린트 크롭트 탑",
-          "price":14900,
+          "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1670973430/716753_XJETV_1189_002_100_0000_Light-.jpg",
+          "title":"저지 크롭 탑",
+          "price":640000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":9,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/44/a9/44a926e37e57244c829c3f7a049fc8aa629d276e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"프린트 티셔츠",
-          "price":19900,
+          "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1670347863/732819_ZALM2_9783_002_100_0000_Light-.jpg",
+          "title":"울 코트",
+          "price":6000000,
           "choice":false,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":10,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/fa/54/fa547c437bf08076aa46dd66f1a2e6a2cf4a4e3e.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"와이드 트윌 팬츠",
-          "price":19900,
+          "img":"https://media.gucci.com/style/HEXEAF2DC_Center_0_0_490x490/1652292067/693153_XDBZN_4681_002_100_0000_Light-GG.jpg",
+          "title":"GG 데님 패치워크 재킷",
+          "price":6500000,
           "choice":true,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":11,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/d1/aa/d1aa5d5d4a3d0699689e7f6187514ad70dc958d6.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"플레어 로라이즈 진",
-          "price":29900,
+          "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1674604866/721691_ZAK59_9200_002_100_0000_Light-.jpg",
+          "title":"트위드 팬츠",
+          "price":2220000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":12,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/ec/6c/ec6c0b3d387ce9b51d68ee440b979291e929c773.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"프린트 크롭트 탑",
-          "price":14900,
+          "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1669921214/711768_ZJV75_1000_002_100_0000_Light-.jpg",
+          "title":"코튼 벨벳 팬츠",
+          "price":1570000,
           "choice":true,
           "new":true,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "gender":"women"
 
       },
       {
           "id":13,
-          "img":"https://lp2.hm.com/hmgoepprod?set=source[/37/43/37434b12a61d3e75cb8e7fcb2e0b6cd6ca028c5f.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
-          "title":"플레어 로라이즈 진",
-          "price":29900,
+          "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1675469761/731310_ZAK59_9791_002_100_0000_Light-.jpg",
+          "title":"캐시미어 코트",
+          "price":12300000,
           "choice":false,
           "new":false,
-          "size":["S","M","L"]
+          "size":["S","M","L"],
+          "best":true,
+          "gender":"women"
 
-      }
+      },
+      {
+        "id":14,
+        "img":"https://media.gucci.com/style/HEXE8F1E3_Center_0_0_800x800/1672147864/729163_Z5330_2602_002_100_0000_Light-.jpg",
+        "title":"더블 브레스트 트위드 자켓",
+        "price":4300000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":15,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1674606668/723612_ZHW10_1000_002_100_0000_Light-.jpg",
+        "title":"더블 브레스트 울 코트",
+        "price":5450000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },{
+        "id":16,
+        "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1666162817/705289_ZAKJ4_1960_002_100_0000_Light-.jpg",
+        "title":"하운드투스 코트",
+        "price":5500000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "best":true,
+        "gender":"men"
+
+    },
+    {
+        "id":17,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_800x800/1675468004/722497_ZALUG_4307_002_100_0000_Light-.jpg",
+        "title":"코튼 드릴 재킷",
+        "price":3200000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "best":true,
+        "gender":"men"
+
+    },
+    {
+        "id":18,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1669919546/729864_ZAK73_1401_002_100_0000_Light-.jpg",
+        "title":"멜란지 클로스 쇼츠",
+        "price":1820000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":19,
+        "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_800x800/1665488744/711543_ZAKZJ_3653_002_100_0000_Light--GG.jpg",
+        "title":"점보 GG 체크 울 셔츠",
+        "price":1540000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":20,
+        "img":"https://media.gucci.com/style/HEXE8F1E3_Center_0_0_490x490/1671496226/723819_ZALH8_4337_002_100_0000_Light-.jpg",
+        "title":"스트라이프 코튼 셔츠",
+        "price":1170000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "best":true,
+        "gender":"men"
+
+    },
+    {
+        "id":21,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1676313043/727906_XJE8K_2094_002_100_0000_Light-.jpg",
+        "title":"코튼 저지 폴로 셔츠",
+        "price":1040000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":22,
+        "img":"https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1672680629/732881_XKC1P_4037_002_100_0000_Light--GG.jpg",
+        "title":"코리아 익스클루시브 GG 울 가디건",
+        "price":1980000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":23,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1674692129/729536_XKC0T_9762_002_100_0000_Light-GG.jpg",
+        "title":"GG 레이스 스트라이프 니트 스웨터",
+        "price":1260000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":24,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1674670523/731359_Z8BDM_3756_002_100_0000_Light-.jpg",
+        "title":"퀼트 코튼 재킷",
+        "price":4200000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },{
+        "id":25,
+        "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1666023418/720589_ZAC5G_9549_002_100_0000_Light-.jpg",
+        "title":"매크로 체크 울 크롭 코트",
+        "price":5000000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "best":true,
+        "gender":"men"
+
+    },
+    {
+        "id":26,
+        "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1670607043/691782_XJEKT_4306_002_100_0000_Light--x.jpg",
+        "title":"아디다스 x 구찌 지퍼 재킷",
+        "price":2340000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "best":true,
+        "gender":"men"
+
+    },{
+        "id":27,
+        "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1670871659/710537_ZAKI3_7040_002_100_0000_Light-G.jpg",
+        "title":"롬버스 울 코트",
+        "price":4400000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":28,
+        "img":"https://media.gucci.com/style/HEXF1E9FB_Center_0_0_490x490/1669921336/721273_ZAK72_1165_002_100_0000_Light-.jpg",
+        "title":"울 캐시미어 포멀 재킷",
+        "price":5900000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":29,
+        "img":"https://media.gucci.com/style/HEXE0E8E5_Center_0_0_490x490/1670871684/710557_ZAG5N_4240_002_100_0000_Light-.jpg",
+        "title":"라벨 울 플란넬 재킷",
+        "price":3500000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":30,
+        "img":"https://media.gucci.com/style/HEXEAF2DC_Center_0_0_490x490/1649338218/616036_XJD7T_9095_002_100_0000_Light--Gucci-Firenze-1921.jpg",
+        "title":"코튼 저지 'Gucci Firenze 1921' 티셔츠",
+        "price":750000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "gender":"men"
+
+    },
+    {
+        "id":31,
+        "img":"https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1659721577/545714_XJAGU_4685_002_100_0000_Light-Web.jpg",
+        "title":"웹(Web) 및 펠린 헤드 디테일의 코튼 폴로",
+        "price":950000,
+        "choice":false,
+        "new":false,
+        "size":["S","M","L"],
+        "best":true,
+        "gender":"men"
+
+    }
   ]
 }
