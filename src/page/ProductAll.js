@@ -5,6 +5,7 @@ import { Container ,Row,Col} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useSearchParams } from 'react-router-dom';
 import ProductAllcard from '../component/ProductAllcard';
+import Foolter from '../component/Foolter';
 export default function ProductAll({authenticate}) {
   const[productList,setProductList] =useState([])
   const[qurey,setQurey] = useSearchParams();
@@ -43,7 +44,7 @@ export default function ProductAll({authenticate}) {
     
       </Row>
     </Container>
-    
+    <Foolter/>
     </>
   )
 }

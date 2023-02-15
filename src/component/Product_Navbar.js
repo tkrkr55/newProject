@@ -2,10 +2,10 @@
 import React,{useState,useEffect} from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 import { HiOutlineUserCircle } from 'react-icons/hi';
-import {AiFillSkin } from 'react-icons/ai';
 import {SlMagnifier } from 'react-icons/sl';
 import { Modals } from './Modals';
 import { BsHandIndex, IconName } from "react-icons/bs";
+import CartStatus from './CartStatus';
 
 export default function Product_Navbar({authenticate ,setAuthenticate}) {
   const[signUpModalOn,setSiginUpModal] =useState(false)
@@ -55,7 +55,7 @@ export default function Product_Navbar({authenticate ,setAuthenticate}) {
             <span className='nav_text'> 
             
             <button className='돋보기' onClick={()=>setSiginUpModal(true)}><SlMagnifier/> </button>
-            <div className='바구니' onClick={()=>{navigate('/cart')}}><AiFillSkin/></div>
+            <div className='바구니' onClick={()=>{navigate('/cart')}}><CartStatus/></div>
             </span>
             <span className='nav_text' onClick={()=>setAuthenticate(false) }>로그아웃</span>
           </div>
