@@ -54,8 +54,8 @@ export default function Product_Navbar({authenticate ,setAuthenticate}) {
             <span className='nav_text'> | </span>
             <span className='nav_text'> 
             
-            <button className='돋보기' onClick={()=>setSiginUpModal(true)}><SlMagnifier/> </button>
-            <div className='바구니' onClick={()=>{navigate('/cart')}}><CartStatus/></div>
+            <button className='돋보기' title="검색" onClick={()=>setSiginUpModal(true)}><SlMagnifier/> </button>
+            <div className='바구니' title="마이리스트" onClick={()=>{navigate('/cart')}}><CartStatus/></div>
             </span>
             <span className='nav_text' onClick={()=>setAuthenticate(false) }>로그아웃</span>
           </div>

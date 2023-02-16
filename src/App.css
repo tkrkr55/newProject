@@ -135,6 +135,7 @@ input:focus{
 .product-img{
   display: flex;
   justify-content: end;
+ 
 }
 
 .user_icon{
@@ -515,45 +516,221 @@ cursor: pointer;
 }
 .detail_img{
   height: 600px;
-  width: 400px;
+  width: 500px;
   border-radius: 10% 30% 30% 15% ;
   -o-object-fit: cover;
      object-fit: cover
 }
 .product_text{
-  text-align: center;
+ padding-top:30px;
+
 }
 
 .product_title{
- font-size: 1.5rem;
+ font-size: 1.4rem;
  padding-bottom: 20px;
+ font-family: 'S-CoreDream-3Light';
 }
 
 .product_price{
   padding-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.547);
+  width: 100%;
+  color:rgb(193, 29, 177);
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .product_size{
   padding-bottom: 100px;
-  width: 500px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 50px;
+  font-family: 'S-CoreDream-3Light';
 }
 
 .plus{
   background-color: transparent;
 
-  border: 1px solid rgb(205, 205, 205);
-  padding:10px 15px;
-  margin:10px;
-  font-size: 1.3rem;
+  border: none;
+  font-size: 2em;
+  color:rgb(88, 74, 74);
+  border-radius: 10%;
+
   
 }
 
-.plus:hover{
-  background-color: rgb(210, 208, 208);
-}
+
 .plus:active{
   box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
   position: relative;
   top:2px;
 
+}
+
+.공유{
+  display: flex;
+  
+
+  
+}
+
+.공유이미지{
+  font-size: 1.4rem;
+  padding-left:20px;
+}
+
+
+.heartCount{
+  display: flex;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.51);
+  margin-bottom: 20px;
+}
+.heart{
+  padding-right: 10px;
+  font-size: 1.2rem;
+  margin:10px 0;
+  color:gray;
+}
+.Count{
+  font-size: 1.2rem;
+  margin:10px 0;
+   color:gray;
+}
+.detailtitle{
+  
+}
+
+dt{
+  float: left;
+  font-size: 1rem;
+  padding-right: 50px;
+  font-family: 'LINESeedKR-Bd';
+}
+
+dd{
+  font-size: 0.9rem;
+  
+  
+}
+strong{
+  padding-right: 40px;
+}
+ul{
+  display: flex;
+}
+ul li {
+  list-style:none;
+  padding:30px;
+}
+
+.select{
+  padding:15px 10px;
+}
+
+.select input[type=radio]{
+  display: none;
+}
+.select input[type=radio]+label{
+  display: inline-block;
+  cursor: pointer;
+  height: 40px;
+  padding-top:10px;
+  width: 90px;
+  border: 1px solid #333;
+  line-height: 24px;
+  text-align: center;
+  font-weight:bold;
+
+  font-size:18px;
+}
+.select input[type=radio]+label{
+  background-color: #fff;
+  color: #000000;
+  border:1px solid gray;
+}
+.select input[type=radio]:checked+label{
+  background-color: #333;
+  color: #fff;
+  border:1px solid gray;
+}
+
+dl{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.515);
+}
+
+.select{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.515);
+}
+
+.주문btn{
+  margin-top:30px;
+}
+
+.수량{
+  display: flex;
+}
+.수량버튼 button{
+  background-color: transparent;
+  border:1px solid gray;
+  width: 50px;
+  height: 50px;
+}
+.수량숫자{
+  font-size: 1.5rem;
+}
+.carttitle{
+  padding-left:20px;
+  font-family: 'MICEMyungjo';
+}
+.cartimg{
+ 
+  width: 130px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.imgendCart{
+  display: flex;
+  padding:30px 10px;
+  font-family: 'MICEMyungjo';
+}
+.장바구니wrap{
+ width: 1000px;
+margin:auto;
+height: 200px;
+font-family: 'MICEMyungjo';
+
+}
+
+.장바구니title{
+  display: flex;
+  justify-content: center;
+  font-family: 'MICEMyungjo';
+}
+.cartfoot{
+  width: 1000px;
+  margin:auto;
+  margin-top:80px;
+  padding-top:60px;
+  border-top:1px solid rgba(128, 128, 128, 0.111);
+  color:gray;
+  font-size: 0.8rem;
+}
+.cartfoot p{
+  font-family: 'MICEMyungjo';
+}
+.cartproduct{
+  padding:50px 0;
+}
+.cartCount{
+  margin-top:10px;
+  font-family: 'MICEMyungjo';
+}
+.cartcount{
+  padding-top:20px;
+}
+.무료배송{
+  color:rgb(177, 0, 242);
+  font-size: 0.9em;
 }

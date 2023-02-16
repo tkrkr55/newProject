@@ -9,7 +9,8 @@
           "new":true,
           "size":["S","M","L"],
           "best":true,
-          "gender":"women"
+          "gender":"women",
+          "count":1
           
 
       },
