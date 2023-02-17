@@ -82,11 +82,25 @@
   padding: 10px 20px 0 5px;
   color: rgb(231, 226, 226);
   font-size: 0.9rem;
+  position:relative;
+ 
 }
 
 .바구니{
   padding-left:10px;
   font-size: 1.1rem;
+  
+}
+.바구니갯수{
+  position:absolute;
+  top:3px;
+  right: 4px;
+  background-color: rgb(162, 84, 234);
+  width: 20px;
+  height: 22px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.9rem;
 }
 .돋보기{
   background-color: transparent;
@@ -551,7 +565,7 @@ cursor: pointer;
 
 .plus{
   background-color: transparent;
-
+  
   border: none;
   font-size: 2em;
   color:rgb(88, 74, 74);
@@ -723,14 +737,28 @@ font-family: 'MICEMyungjo';
 .cartproduct{
   padding:50px 0;
 }
-.cartCount{
-  margin-top:10px;
-  font-family: 'MICEMyungjo';
-}
+
 .cartcount{
-  padding-top:20px;
+  padding-top:13px;
+  font-size: 1.2rem;
+  font-family: 'MICEMyungjo';
+  width: 50px;
 }
 .무료배송{
   color:rgb(177, 0, 242);
   font-size: 0.9em;
+}
+.cartPrice{
+  padding-top:13px;
+  width: 100px;
+  font-family: 'MICEMyungjo';
+}
+.carttitleth{
+  width: 110px;
+  display: flex;
+ 
+}
+.left{
+  padding-right: 10px;
+  
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
-import { minus, pluscount } from '../store/userSlice'
+import { addfilter, minus, pluscount } from '../store/userSlice'
 import { FiPlusCircle,FiMinusCircle} from "react-icons/fi";
-
+import { FiX } from "react-icons/fi";
 export default function Cart() {
   let product = useSelector((state)=>state.products)
   let total = [0]
@@ -26,10 +26,11 @@ export default function Cart() {
      
   <thead >
     <tr>
-      <th>상품명</th>
-      <th>수량</th>
-      <th>변경하기</th>
-      <th>가격</th>
+      <th >상품명</th>
+      <th >수량</th>
+      <th >가격</th>
+      <th></th>
+      
     </tr>
   </thead>
   
@@ -41,11 +42,14 @@ export default function Cart() {
       <td>
         <div className='imgendCart'><img className='cartimg' width={100} src={product[i].img}/><p
       className='carttitle'> <strong>LoL Model</strong><br/><div className='무료배송'>무료배송 (내일출고)</div>{product[i].title}</p></div></td>
-      <td ><div className='cartcount'>{product[i].count}</div></td>
+      <td ><div className='cartcount'>{product[i].count}개</div></td>
       <td> <button className='plus' onClick={()=>{dispatch(pluscount(product[i].id))}}><FiPlusCircle/></button>
-      <button  className='plus' onClick={()=>{dispatch(minus(product[i].id))}}> <FiMinusCircle/></button></td>
-      <td>{product[i].count*product[i].price}</td>
       
+      <button  className='plus' onClick={()=>{dispatch(minus(product[i].id))}}> <FiMinusCircle/></button></td>
+      <td><div className='cartPrice'>{product[i].count*product[i].price}원</div></td>
+      <td ><button onClick={()=>{dispatch(addfilter(product[i].id))}} ><FiX/></button></td>
+      
+
     </tr>
     
    )}

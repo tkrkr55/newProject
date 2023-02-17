@@ -29,12 +29,18 @@ reducers :{
     }else{
     state.push(action.payload)
   } },
-   
+   addfilter(state,action){
+    state.forEach((item,index)=>{
+      if(item.id === action.payload){
+        state.splice(index ,1)
+      }
+    })
+  }
    
  
 
   }
 })
 
-export let {pluscount,minus,addItem} = products.actions
+export let {pluscount,minus,addItem,addfilter} = products.actions
 export default products;

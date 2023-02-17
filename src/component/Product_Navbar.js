@@ -6,11 +6,14 @@ import {SlMagnifier } from 'react-icons/sl';
 import { Modals } from './Modals';
 import { BsHandIndex, IconName } from "react-icons/bs";
 import CartStatus from './CartStatus';
+import { useSelector } from 'react-redux';
 
 export default function Product_Navbar({authenticate ,setAuthenticate}) {
+  const [cartlength,setCartlength] = useState(0)
   const[signUpModalOn,setSiginUpModal] =useState(false)
   const navigate = useNavigate()
-  
+  let product = useSelector((state)=>state.products)
+  console.log(product)
   return (
     <>
     <Modals show={signUpModalOn} onHide={()=>setSiginUpModal(false)}/>
@@ -52,11 +55,11 @@ export default function Product_Navbar({authenticate ,setAuthenticate}) {
 
 
             <span className='nav_text'> | </span>
-            <span className='nav_text'> 
+            <div className='nav_text'> 
             
             <button className='돋보기' title="검색" onClick={()=>setSiginUpModal(true)}><SlMagnifier/> </button>
-            <div className='바구니' title="마이리스트" onClick={()=>{navigate('/cart')}}><CartStatus/></div>
-            </span>
+            <div className='바구니' title="마이리스트" onClick={()=>{navigate('/cart')}}><CartStatus/><div className='바구니갯수'>{product?.length}</div></div>
+            </div>
             <span className='nav_text' onClick={()=>setAuthenticate(false) }>로그아웃</span>
           </div>
           
