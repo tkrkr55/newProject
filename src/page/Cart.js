@@ -1,9 +1,10 @@
 import React from 'react'
-import { Table } from 'react-bootstrap'
+import { Tab, Table } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { addfilter, minus, pluscount } from '../store/userSlice'
-import { FiPlusCircle,FiMinusCircle} from "react-icons/fi";
+import {AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import { FiX } from "react-icons/fi";
+import FooterCart from '../component/FooterCart';
 export default function Cart() {
   let product = useSelector((state)=>state.products)
   let total = [0]
@@ -21,32 +22,40 @@ export default function Cart() {
     <div className='장바구니title'>
     <h1>장바구니</h1>
     </div>
+    <div className='장바구니전체wrap'>
     <div className='장바구니wrap'>
-    <Table>
-     
+    
+   
+   
+    <Table >
+    
   <thead >
     <tr>
       <th >상품명</th>
-      <th >수량</th>
-      <th></th>
-      <th >가격</th>
-      <th></th>
-      <th></th>
+      <th ></th>
+    
+      <th ></th>
+      
     </tr>
   </thead>
   
   <tbody >
+  
    {product.map((item,i)=> 
       
-      <tr >
+      <tr  className='his' >
       
       <td>
-        <div className='imgendCart'><img className='cartimg' width={100} src={product[i].img}/><p
-      className='carttitle'> <strong>LoL Model</strong><br/><div className='무료배송'>무료배송 (내일출고)</div>{product[i].title}<p>{product[i].price}원</p></p></div></td>
-      <td ><div className='cartcount'>{product[i].count}개</div></td>
-      <td> <button className='plus' onClick={()=>{dispatch(pluscount(product[i].id))}}><FiPlusCircle/></button>
-      
-      <button  className='plus' onClick={()=>{dispatch(minus(product[i].id))}}> <FiMinusCircle/></button></td>
+       
+        <div className='imgendCart'>
+          <img className='cartimg' width={100} src={product[i].img}/><p
+      className='carttitle'> <strong>LoL Model</strong><br/><div className='무료배송'>무료배송 (내일출고)</div>
+      {product[i].title}<p>{product[i].price}원</p></p></div></td>
+     
+      <div className='cartbtncount'>
+       <button className='plus' onClick={()=>{dispatch(pluscount(product[i].id))}}><AiOutlinePlus/></button>
+      <div className='cartcount'>{product[i].count}</div>
+      <button  className='plus' onClick={()=>{dispatch(minus(product[i].id))}}> <AiOutlineMinus/></button></div>
       <td><div className='cartPrice'>{product[i].count*product[i].price}원</div></td>
       <td ><button className='cartFix' onClick={()=>{dispatch(addfilter(product[i].id))}} ><FiX/></button></td>
       
@@ -54,38 +63,48 @@ export default function Cart() {
     </tr>
     
    )}
-   {product.map((item,i)=>
-  <div className='cart_price'>
-   
-  <div className='cart_price_header'>
-  <div>총상품금액</div>
-  <div>총 배송비</div>
-  <h3>결제금액</h3>
 
-  
-    <div>{sum}원</div>
-    <div> + 0원</div>
-    <h3>{sum}원</h3>
-  </div>
-  </div>
-
-   )}
- 
-
-   <div className='cartfoot'>
-          <p>장바구니에 담긴 상품은 30일간 저장됩니다.<br/>
-L&M"은 자사/입점사 제품별, 주문유형별 배송비 기준에 따라 배송비가 별도 부과됩니다.<br/>
-L&M은 동일 고객(ID기준)의 배송지가 일치하는 여러 건의 주문이 있을 경우, 에코 프렌들리 정책 따른 친환경 소비를 위해 출고일을 기준으로<br/>
-자사 상품에 한해 합배송 서비스를 제공합니다. (일부 예외 브랜드 제외)<br/>
-만약 합배송 되어 상품을 수령하셨을 경우, 모든 주문이 배송완료된 후 결제한 배송비를 재계산하여 익일에 퍼플코인으로 돌려드립니다.<br/>
-(단, 무료배송 쿠폰으로 결제한 배송비는 페이백 대상에서 제외)</p><br/>
-        </div>
       </tbody>
     
-</Table> 
-</div>
-        
-        
+    </Table> 
+    </div>
+   <div id='Tablepricewrap'>
+   
+    <dl className='pricerowTable'>
+      <div className='paricerow'>
+        <dt className='dttitle'>총 상품금액</dt>
+        <dd className='ddtitle'>{sum}원</dd>
+      </div>
+      <div className='paricerow'>
+        <dt className='dttitle'>상품할인</dt>
+        <dd className='ddtitle'>-0원</dd>
+      </div>
+      <div className='paricerow'>
+        <dt className='dttitle'>포장비</dt>
+        <dd className='ddtitle'>+0원</dd>
+      </div>
+      <div className='paricerow'>
+        <dt className='dttitle'>배송비</dt>
+        <dd className='ddtitle'>+ 0 원</dd>
+      </div>
+      <div className='paricerow'>
+        <dt className='dttitle'>결제금액</dt>
+        <dd className='ddtitle'>{sum}원</dd>
+      </div>
+    </dl>
+    <div>
+      <button className='cartbtn' onClick={(()=>{alert('주문이 정상적으로 접수되었습니다.')})}>{product?.length}개 상품 구매하기</button>
+    </div>
+  
+   </div>
+   
+ </div>
+
+   
+
+        <FooterCart/>
+
+      
     </>
   )
 }

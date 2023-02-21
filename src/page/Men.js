@@ -28,13 +28,16 @@ export default function Men({authenticate}) {
       getProducts()
 
   },[qurey])
+ 
+  
+
   return (
     <>
        <div className='womenTitle'>
     <div className='womens'>MEN</div>
     <div className='womentext'>하우스가 디자인한 남성 레디-투-웨어 컬렉션에서 선보이는 다양한 테일러드 수트, 울 코트, 볼링 셔츠, 데님 및 액티브웨어를 포함합니다.</div>
     </div>
-    
+
     <Container>
       <Row>
         {productList.map((item)=>(

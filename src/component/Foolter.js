@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import {FiArrowUp } from "react-icons/fi";
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function Foolter() {
+ 
   return (
     <div className='foot'>
       <p>
@@ -10,6 +13,7 @@ export default function Foolter() {
 COPYRIGHT © CHRISTIAN DIOR COUTURE KOREA ALL RIGHTS RESERVED. <br/>
 이니시스 구매안전 서비스 가입함
 </p>
+<div className='maingo' > <FiArrowUp/></div>
     </div>
   )
 }

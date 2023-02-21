@@ -5,6 +5,18 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TAEBAEKmilkyway';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'FUNFLOWSURVIVORKR';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/FUNFLOWSURVIVORKR.woff2') format('woff2');
   font-weight: normal;
@@ -111,6 +123,7 @@
 .login{
   width: 100%;
   background-color: black;
+  
 }
 
 
@@ -565,13 +578,8 @@ cursor: pointer;
 
 .plus{
   background-color: transparent;
-  
   border: none;
-  font-size: 2em;
-  color:rgb(88, 74, 74);
-  border-radius: 10%;
-
-  
+  font-size: 1.3em;
 }
 
 
@@ -709,8 +717,14 @@ dl{
   padding:30px 10px;
   font-family: 'MICEMyungjo';
 }
+.장바구니전체wrap{
+  width: 100%;
+  position:relative;
+}
 .장바구니wrap{
- width: 1000px;
+  position:absolute;
+  left:10%;
+ width: 60%;
 margin:auto;
 height: 200px;
 font-family: 'MICEMyungjo';
@@ -719,17 +733,19 @@ font-family: 'MICEMyungjo';
 
 .장바구니title{
   display: flex;
+ 
   justify-content: center;
   font-family: 'MICEMyungjo';
 }
 .cartfoot{
-  width: 1000px;
-  margin:auto;
-  margin-top:80px;
-  padding-top:60px;
+  width: 350px;
+  position:absolute;
+  right: 5%;
+  bottom: 10%;
   border-top:1px solid rgba(128, 128, 128, 0.111);
   color:gray;
   font-size: 0.8rem;
+ 
 }
 .cartfoot p{
   font-family: 'MICEMyungjo';
@@ -739,10 +755,12 @@ font-family: 'MICEMyungjo';
 }
 
 .cartcount{
-  padding-top:13px;
-  font-size: 1.2rem;
+  padding-top:10px;
+  font-size: 1.1rem;
   font-family: 'MICEMyungjo';
-  width: 50px;
+  color:gray;
+  font-weight: bold;
+  
 }
 .무료배송{
   color:rgb(177, 0, 242);
@@ -752,6 +770,8 @@ font-family: 'MICEMyungjo';
   padding-top:13px;
   width: 100px;
   font-family: 'MICEMyungjo';
+  color:gray;
+  font-weight: bold;
 }
 .carttitleth{
   width: 110px;
@@ -765,15 +785,114 @@ font-family: 'MICEMyungjo';
 
 .cartFix{
   background-color: transparent;
-  border-radius: 10%;
-  border-color: rgba(128, 128, 128, 0.435);
+  border:transparent;
+  font-size: 1.2rem;
   margin-top:5px;
 }
 
-.cart_price{
-  display: flex;
-  justify-self: center;
-  margin-top:10%;
- 
+.paricerow{
+  padding:16px;
+  padding-bottom: 10%
+  
+  
+}
+.pricerowTable{
+  border:1px solid rgba(128, 128, 128, 0.293);
+  width: 350px;
+  
+  
 }
 
+.상품정보{
+  width: 100%;
+  position: relative;
+}
+#Tablepricewrap{
+ position:absolute;
+ right:5%;
+
+}
+.ddtitle{
+  float: right;
+  font-size: 0.8rem;
+  font-family: 'GmarketSansMedium';
+  
+}
+.dttitle{
+  font-size: 1rem;
+  font-family: 'GmarketSansMedium';
+  
+}
+.cartbtn{
+  background-color: rgba(157, 37, 157, 0.669);
+  color:white;
+  border:none;
+  width: 350px;
+  height: 50px;
+  font-family: 'GmarketSansMedium';
+}
+.hi{
+  display:flex ;
+  justify-content: space-between;
+  width: 100%;
+}
+.cartbtncount{
+ 
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid rgba(128, 128, 128, 0.421);
+  border-radius: 10px;
+  height: 50px;
+  
+  
+}
+
+.his{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:1px solid transparent;
+}
+
+td{
+  border: none;
+}
+.sortwrap{
+  display: flex;
+  justify-content: end;
+  margin-right: 2%;
+}
+
+.sortprice{
+  background-color: transparent;
+  border:none;
+  color:rgb(99, 98, 98);
+  font-size: 0.9rem;
+}
+.배너광고{
+  display: flex;
+  justify-content: center;
+  margin-top:40px;
+  border-top: 1px solid rgba(128, 128, 128, 0.481);
+  padding-top:30px;
+ 
+  
+}
+
+.bestLook{
+  display: flex;
+  justify-content: center;
+  font-family: 'S-CoreDream-3Light';
+  margin-left:10px;
+  margin-top: 20px;
+}
+
+.maingo{
+  display: flex;
+  justify-content: end;
+  font-size: 2rem;
+  color:gray;
+  cursor: pointer;
+}

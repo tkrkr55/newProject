@@ -7,6 +7,8 @@ import { addItem, minus, pluscount } from '../store/userSlice'
 import { BiShareAlt } from "react-icons/bi";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { BsSuitHeartFill, BsSuitHeart} from "react-icons/bs";
+import Randomimg from '../component/Randomimg'
+import Foolter from '../component/Foolter'
 export default function ProductDetial() {
   const dispatch = useDispatch()
   const navigate = useNavigate()
@@ -123,6 +125,15 @@ export default function ProductDetial() {
         </Col>
       </Row>
     </Container>
+    
+    <div className='배너광고'>
+      <img src='/신발이미지/배너디자인.jpg'></img>
+      
+    </div>
+    <div className='bestLook'>
+    <Randomimg/>
+    </div>
+    <Foolter/>
     </>
   )
 }
