@@ -126,13 +126,7 @@ export default function ProductDetial() {
       </Row>
     </Container>
     
-    <div className='배너광고'>
-      <img src='/신발이미지/배너디자인.jpg'></img>
-      
-    </div>
-    <div className='bestLook'>
-    <Randomimg/>
-    </div>
+    
     <Foolter/>
     </>
   )

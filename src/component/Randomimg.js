@@ -7,7 +7,7 @@ export default function Randomimg() {
   const backgroundImg = backgroundArr[randomIndex]
   console.log(backgroundImg)
   return (
-    <div className='bestLook'>
+    <div>
       <div>
         <h3>이달의 TOP3 상품</h3>
       </div>

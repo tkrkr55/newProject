@@ -17,8 +17,8 @@ reducers :{
 
    if(index >= 0){
     state[index].count--
-   }else if(index <= 0){
-    state[index].count=0
+   }else if(index < 0){
+    alert("수량을 입력하세요!")
    }
   },
 
