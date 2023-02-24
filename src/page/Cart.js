@@ -28,14 +28,7 @@ export default function Cart() {
 
  // 하나의 금액  구하는 공식
 
- let totals = [0]
- let c = 0
- for(c =0; c<product.length; c++){
- 
-   let d = product[c].price*product[c].count;
-   total.push(d)
- }
-const sums =total.reduce((x,y)=> x+y)
+
 
   let dispatch = useDispatch()
 
