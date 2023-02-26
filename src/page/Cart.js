@@ -126,11 +126,7 @@ export default function Cart() {
     <dl className='pricerowTable'>
       <div className='paricerow'>
         <dt className='dttitle'>상품금액</dt>
-        {
-         checkselect == true ? <dd className='ddtitle'>{sum}</dd> :null
-           
-          
-          }
+       {}
      
          
       </div>
