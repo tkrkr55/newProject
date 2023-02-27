@@ -896,3 +896,33 @@ td{
   color:gray;
   cursor: pointer;
 }
+.cart_blank{
+ align-items: center;
+ margin:auto;
+
+}
+
+.cart_blank img {
+  width: 300px;
+}
+.cart_blank h2{
+  font-family: 'S-CoreDream-3Light';
+}
+.cart_blank p {
+  font-family: 'S-CoreDream-3Light';
+  color:gray;
+}
+
+.cart_blank strong {
+  font-family: 'S-CoreDream-3Light';
+}
+.cart_wrap{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top:10%;
+  padding:5% 0 ; 
+  margin-left:20%;
+  border-top:1px solid rgba(128, 128, 128, 0.485);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.491);
+}

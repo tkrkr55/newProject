@@ -43,12 +43,9 @@ export default function ProductDetial() {
         }
       ))
     navigate('/cart')
-   
+   console.log(product)
   }
   
- let handleheart = ()=>{
- 
- }
   
 
   return (
