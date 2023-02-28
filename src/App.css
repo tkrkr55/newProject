@@ -149,7 +149,7 @@
 .search img {
   color:red;
 }
-input{
+#check_btn{
   border: 0 solid black;
   padding-left:10px;
   height: 30px;
@@ -205,9 +205,8 @@ input:focus{
   padding-right: 10px;
   cursor: pointer;
 }
-.input{
- height: 50px;
-}
+
+
 
 .logo{
   font-size: 1.7rem;
@@ -592,9 +591,6 @@ cursor: pointer;
 
 .공유{
   display: flex;
-  
-
-  
 }
 
 .공유이미지{
@@ -792,13 +788,17 @@ font-family: 'MICEMyungjo';
 
 .paricerow{
   padding:16px;
-  padding-bottom: 10%
+  padding-bottom: 10%;
+ 
   
   
 }
 .pricerowTable{
-  border:1px solid rgba(128, 128, 128, 0.293);
+  border:1px solid rgba(231, 230, 230, 0.293);
   width: 350px;
+  border-radius: 5%;
+  background-color: rgb(242, 241, 241);
+
   
   
 }
@@ -808,19 +808,22 @@ font-family: 'MICEMyungjo';
   position: relative;
 }
 #Tablepricewrap{
- position:absolute;
- right:5%;
+ position:fixed;
+ right: 7%;
+ top:24%
+ 
 
 }
 .ddtitle{
   float: right;
-  font-size: 0.8rem;
-  font-family: 'GmarketSansMedium';
+  font-size: 1.1rem;
+  font-family: 'S-CoreDream-3Light';
   
 }
 .dttitle{
-  font-size: 1rem;
-  font-family: 'GmarketSansMedium';
+  font-size: 1.1rem;
+  font-family: 'S-CoreDream-3Light';
+  padding-left:10px;
   
 }
 .cartbtn{
@@ -853,7 +856,7 @@ font-family: 'MICEMyungjo';
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border:1px solid transparent;
+  border:1px solid rgb(240, 237, 237);
 }
 
 td{
@@ -896,12 +899,22 @@ td{
   color:gray;
   cursor: pointer;
 }
-.cart_blank{
- align-items: center;
- margin:auto;
 
+.모두선택{
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  border-bottom:1px solid rgb(209, 208, 208);
+ 
 }
-
+.선택삭제{
+  border: none;
+}
+.선택삭제_wrap{
+  position: absolute;
+  right: 0;
+}
 .cart_blank img {
   width: 300px;
 }
@@ -922,7 +935,43 @@ td{
   width: 100%;
   margin-top:10%;
   padding:5% 0 ; 
-  margin-left:20%;
-  border-top:1px solid rgba(128, 128, 128, 0.485);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.491);
+
+ 
+}
+.inputs{
+  width: 80%;
+  border:none;
+  font-size: 1rem;
+}
+input{
+  width: 20px;
+  accent-color:rgb(187, 99, 198);
+  margin:0;
+  outline: none;
+}
+.select_btn{
+  font-family: 'S-CoreDream-3Light';
+  padding-left: 10px;
+  font-size:1.0rem;
+  color:gray;
+
+}
+
+th{
+  align-items: center;
+}
+.choice_select{
+  margin-bottom:30px;
+  background-color: transparent;
+}
+
+.tbody{
+  height: 700px;
+  overflow: scroll;
+  background-color: rgba(240, 239, 239, 0.428);
+}
+.footercart{
+  position:absolute;
+  right: 7%;
+  bottom: 15%;
 }

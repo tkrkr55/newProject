@@ -37,7 +37,7 @@ export const Modals = ({show,onHide}) => {
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-lg" className='title'>
           <SlMagnifier/>
-          <input  className='input'
+          <input  className='inputs'
         
           onKeyPress={(e)=>hendlequrey(e) } placeholder="Search for the product"></input>
           </Modal.Title> 

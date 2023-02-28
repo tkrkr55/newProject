@@ -13,7 +13,7 @@ export default function Foolter() {
 COPYRIGHT © CHRISTIAN DIOR COUTURE KOREA ALL RIGHTS RESERVED. <br/>
 이니시스 구매안전 서비스 가입함
 </p>
-<div className='maingo' > <FiArrowUp/></div>
+<a className='maingo' href='#' > <FiArrowUp/></a>
     </div>
   )
 }

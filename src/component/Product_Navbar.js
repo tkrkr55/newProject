@@ -13,7 +13,8 @@ export default function Product_Navbar({authenticate ,setAuthenticate}) {
   const[signUpModalOn,setSiginUpModal] =useState(false)
   const navigate = useNavigate()
   let product = useSelector((state)=>state.products)
-  console.log(product)
+
+
   return (
     <>
     <Modals show={signUpModalOn} onHide={()=>setSiginUpModal(false)}/>
@@ -47,9 +48,9 @@ export default function Product_Navbar({authenticate ,setAuthenticate}) {
             <span  className='nav_text'>  event shop </span>
             </button>
             <div className='dropdown-content'>
-            <Link to ='/women' href='#'>기획전</Link>
-            <Link to='/men' href='#'>what's New</Link>
-            <Link to ='/product' href='#'>Trend Now</Link>
+            <Link to ='/' href='#'>기획전</Link>
+            <Link to='/' href='#'>what's New</Link>
+            <Link to ='/' href='#'>Trend Now</Link>
             </div>
             </span>
 

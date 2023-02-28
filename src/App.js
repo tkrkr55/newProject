@@ -15,6 +15,7 @@ import Women from './page/Women';
 
 
 
+
 function App() {
   const[authenticate,setAuthenticate] = useState(false)
 
@@ -37,8 +38,7 @@ function App() {
     <Route path="/detail/:id" element={<ProductPrive authenticate={authenticate}/>}/>
     <Route path="/cart" element={<Cart/>}/>
     </Routes>
-    
-    
+   
     </div>
     
   );
