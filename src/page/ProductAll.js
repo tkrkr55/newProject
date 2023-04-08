@@ -14,7 +14,7 @@ export default function ProductAll({authenticate}) {
   
   const getProducts= ()=>{
     let serchQurey =qurey.get('q')||''
-    axios.get(`http://localhost:5000/products?q=${serchQurey}`)
+    axios.get(`https://my-json-server.typicode.com/tkrkr55/newProject/products?q=${serchQurey}`)
     .then((data)=>{
       setProductList(data.data)
    

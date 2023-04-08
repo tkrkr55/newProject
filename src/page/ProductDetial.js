@@ -19,7 +19,7 @@ export default function ProductDetial() {
   let {id} = useParams()
   let product = useSelector((state)=>state.products)
   const getProduct=()=>{
-    axios.get(`http://localhost:5000/products/${id}`).then((item)=>{ 
+    axios.get(`https://my-json-server.typicode.com/tkrkr55/newProject/products/${id}`).then((item)=>{ 
     setDate(item.data)
 
       if(data?.id === id){
